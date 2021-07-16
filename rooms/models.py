@@ -1,6 +1,5 @@
 from django.db import models
 from django.db.models.deletion import CASCADE, SET_NULL
-from django.db.models.fields import CharField
 from django_countries.fields import CountryField
 from core import models as core_models
 from users import models as user_models
