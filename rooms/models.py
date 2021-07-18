@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models.base import Model
 from django.db.models.deletion import CASCADE, SET_NULL
 from django_countries.fields import CountryField
 from core import models as core_models
@@ -49,7 +50,7 @@ class HouseRule(AbstractItem):
 
 class Photo(core_models.TimeStampModel):
     caption = models.CharField(max_length=80)
-    file = models.ImageField()
+    file = models.ImageField(upload_to="room_photos")
     room = models.ForeignKey("Room", related_name="photos", on_delete=CASCADE)
 
     def __str__(self):
@@ -81,6 +82,10 @@ class Room(core_models.TimeStampModel):
     amenities = models.ManyToManyField(Amenity, related_name="rooms", blank=True)
     facilities = models.ManyToManyField(Facility, related_name="rooms", blank=True)
     house_rules = models.ManyToManyField(HouseRule, related_name="rooms", blank=True)
+
+    def save(self, *args, **kwargs):
+        self.city = str.capitalize(self.city)
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return self.name
