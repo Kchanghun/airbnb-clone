@@ -9,3 +9,4 @@ Begin recording documentation
 2021-07-18  make admin for photos & learn how to intercept imformation from admin pannel
 2021-07-19  Zzz
 2021-07-20  add management folder & make fake users and rooms
+2021-07-21  done making all seed & learn how to start making html and how to use views

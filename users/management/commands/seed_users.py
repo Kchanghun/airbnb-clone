@@ -12,7 +12,7 @@ class Command(BaseCommand):
             "--number",
             default=2,
             type=int,
-            help="How many users do you wnat create?",
+            help="How many users do you wnant create?",
         )
 
     def handle(self, *args, **options):
