@@ -10,3 +10,4 @@ Begin recording documentation
 2021-07-19  Zzz
 2021-07-20  add management folder & make fake users and rooms
 2021-07-21  done making all seed & learn how to start making html and how to use views
+2021-07-22  learn how to make page by classed based views & function based views
