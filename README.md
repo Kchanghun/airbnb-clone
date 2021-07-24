@@ -12,3 +12,4 @@ Begin recording documentation
 2021-07-21  done making all seed & learn how to start making html and how to use views
 2021-07-22  learn how to make page by classed based views & function based views
 2021-07-23  make search bar & save data which is selected into url
+2021-07-24  done making form of search bar by CBV & FBV
