@@ -13,3 +13,5 @@ Begin recording documentation
 2021-07-22  learn how to make page by classed based views & function based views
 2021-07-23  make search bar & save data which is selected into url
 2021-07-24  done making form of search bar by CBV & FBV
+2021-07-25  Zzz
+2021-07-26  done making login by CBV & FBV
