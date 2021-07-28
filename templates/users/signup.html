@@ -12,6 +12,7 @@ Sign Up
 
 
 {% block content %}
+{% include 'partials/social_login.html' %}
 
 <form method="POST" action="{% url "users:signup" %}">
     {% csrf_token %}
