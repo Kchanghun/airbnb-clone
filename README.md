@@ -15,3 +15,4 @@ Begin recording documentation
 2021-07-24  done making form of search bar by CBV & FBV
 2021-07-25  Zzz
 2021-07-26  done making login by CBV & FBV
+2021-07-27  done making sign up & send email from mailgun
