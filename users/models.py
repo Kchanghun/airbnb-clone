@@ -69,13 +69,14 @@ class User(AbstractUser):
 
     def verify_email(self):
         if self.email_verified is False:
+            print(123123)
             secret = uuid.uuid4().hex[:20]
             self.email_secret = secret
             html_message = render_to_string(
                 "emails/verify_email.html", {"secret": secret}
             )
             send_mail(
-                "Verify Airbnb Account",
+                _("Verify Airbnb Account"),
                 strip_tags(html_message),
                 settings.EMAIL_FROM,
                 [self.email],

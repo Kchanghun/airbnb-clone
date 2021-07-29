@@ -16,4 +16,5 @@ Begin recording documentation
 2021-07-25  Zzz
 2021-07-26  done making login by CBV & FBV
 2021-07-27  done making sign up & send email from mailgun
-2021-07-28  done making Github Sing Up
+2021-07-28  done making Github Sign Up
+2021-07-29  done making Kakao Sign Up
