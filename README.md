@@ -18,3 +18,4 @@ Begin recording documentation
 2021-07-27  done making sign up & send email from mailgun
 2021-07-28  done making Github Sign Up
 2021-07-29  done making Kakao Sign Up
+2021-07-30  setup TailwindCSS with Gulp
