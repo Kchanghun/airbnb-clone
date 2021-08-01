@@ -19,3 +19,5 @@ Begin recording documentation
 2021-07-28  done making Github Sign Up
 2021-07-29  done making Kakao Sign Up
 2021-07-30  setup TailwindCSS with Gulp
+2021-07-31  Zzz
+2021-08-01  Start making page beautiful with tailwind
