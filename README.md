@@ -21,3 +21,4 @@ Begin recording documentation
 2021-07-30  setup TailwindCSS with Gulp
 2021-07-31  Zzz
 2021-08-01  Start making page beautiful with tailwind
+2021-08-02  done beautifying the login page
