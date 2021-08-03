@@ -22,3 +22,4 @@ Begin recording documentation
 2021-07-31  Zzz
 2021-08-01  Start making page beautiful with tailwind
 2021-08-02  done beautifying the login page
+2021-08-03  show message to user interface
