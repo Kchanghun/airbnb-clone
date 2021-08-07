@@ -24,3 +24,6 @@ Begin recording documentation
 2021-08-02  done beautifying the login page
 2021-08-03  show message to user interface
 2021-08-04  making Profile page
+2021-08-05  Zzz
+2021-08-06  Zzz
+2021-08-07  done making Update profile and Update password
