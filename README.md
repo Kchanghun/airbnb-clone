@@ -28,3 +28,4 @@ Begin recording documentation
 2021-08-06  Zzz
 2021-08-07  done making Update profile and Update password
 2021-08-08  add amenities and facilities and house rules and reviews in room_detail.html
+2021-08-09  done making pages which can edit rooms
