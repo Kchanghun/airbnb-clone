@@ -31,3 +31,5 @@ Begin recording documentation
 2021-08-09  done making pages which can edit rooms
 Zzz
 2021-08-15  make Calendar for reservation
+Zzz
+2021-08-20  learn about filter
